@@ -5,7 +5,7 @@ metaDescription: This is a sample meta description. If one is not present in
   your page/post's front matter, the default metadata.desciption will be used
   instead.
 date: 2021-02-03T18:17:38.597Z
-author: John Appleseed
+author: Håvard Brynjulfsen
 summary: Users hate to wait. Use skeleton loading instead of a boring spinner.
 tags:
   - tech
