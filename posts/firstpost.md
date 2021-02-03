@@ -1,31 +1,30 @@
 ---
-title: This is the first example post
+title: How to create a skeleton-like loading effect using only a few lines of
+  CSS (SCSS)
 metaDescription: This is a sample meta description. If one is not present in
   your page/post's front matter, the default metadata.desciption will be used
   instead.
 date: 2021-02-03T18:17:38.597Z
 author: John Appleseed
-summary: Why contemplating our mortality can be a powerful catalyst for change
+summary: Users hate to wait. Use skeleton loading instead of a boring spinner.
 tags:
   - tech
   - environment
   - politics
   - sport
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## Just give me the code
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+What we'll be creating: [Demo (CodePen)](https://codepen.io/havardob/full/dyGGGzq)
 
-## Section Header
+Notice that I've added a height and a width to the `div` element. I'm only doing this so that we have someplace to view what the `skeleton` class does.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+## Breaking it down
 
-```sass
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
+We start of with a basic background-color. This will be the background of our skeleton at which the shine effect will slide across. 
+
+```
+background-color: #e2e5e7;
 ```
 
-Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Then we'll add the shine effect using `background-image: linear-gradient()`:
